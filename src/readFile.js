@@ -1,19 +1,15 @@
 import { readFileSync } from 'fs';
 import path from 'path';
-import _ from 'lodash';
+import getSortKeys from './getSortKeys';
+import isObjectHasProperty from './isObjectHasProperty';
 
 export default function readFile(path1, path2) {
   const file1 = readFileSync(path.resolve(process.cwd(), path1), 'utf-8');
   const file2 = readFileSync(path.resolve(process.cwd(), path2), 'utf-8');
   let result = '{';
   const parseFile1 = JSON.parse(file1);
-  const parseFile1Keys = Object.keys(parseFile1);
   const parseFile2 = JSON.parse(file2);
-  const parseFile2Keys = Object.keys(parseFile2);
-  const allKeys = Array.from(new Set([...parseFile1Keys, ...parseFile2Keys]));
-  const allSortKeys = _.sortBy(allKeys);
-
-  const isObjectHasProperty = (object, property) => Object.prototype.hasOwnProperty.call(object, property);
+  const allSortKeys = getSortKeys(parseFile1, parseFile2);
 
   allSortKeys.forEach((key) => {
     if (isObjectHasProperty(parseFile1, key) && isObjectHasProperty(parseFile2, key)) {
