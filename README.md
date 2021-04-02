@@ -3,7 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/584240d525bc98479421/maintainability)](https://codeclimate.com/github/AgarkovRoman/frontend-project-lvl2/maintainability)
 
-[![Eslint](https://github.com/AgarkovRoman/frontend-project-lvl2/workflows/eslint-check/badge.svg)](https://github.com/AgarkovRoman/frontend-project-lvl2/actions)
+![Eslint](https://github.com/AgarkovRoman/frontend-project-lvl2/workflows/eslint-check/badge.svg)
 
 
 ## Usage:
