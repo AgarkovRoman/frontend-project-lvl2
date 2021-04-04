@@ -5,6 +5,7 @@
 
 ![CI](https://github.com/AgarkovRoman/frontend-project-lvl2/workflows/CI/badge.svg)
 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/584240d525bc98479421/test_coverage)](https://codeclimate.com/github/AgarkovRoman/frontend-project-lvl2/test_coverage)
 
 ## Usage:
 
