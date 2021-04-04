@@ -3,7 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/584240d525bc98479421/maintainability)](https://codeclimate.com/github/AgarkovRoman/frontend-project-lvl2/maintainability)
 
-![CI](https://github.com/AgarkovRoman/frontend-project-lvl2/workflows/ci-check/badge.svg)
+![CI](https://github.com/AgarkovRoman/frontend-project-lvl2/workflows/CI/badge.svg)
 
 
 ## Usage:
